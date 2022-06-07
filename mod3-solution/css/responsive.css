@@ -1,0 +1,52 @@
+body {
+    background-color: yellowgreen;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background-color: yellow;
+}
+
+.navbar-brand {
+    padding: 40px;
+    font-size: 2em;
+    font-weight: bold;
+    color: blue;
+}
+
+.navbar-toggler {
+    border: 5px solid blue;
+}
+
+.navbar-collapse {
+    justify-content: right;
+}
+
+
+
+.navbar-nav {
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.nav-item:nth-child(1) {
+    background-color: rgb(185, 66, 66);
+}
+
+.nav-item:nth-child(2) {
+    background-color: rgb(148, 138, 138);
+}
+
+.nav-item:nth-child(3) {
+    background-color: white;
+}
+
+#text {
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 20px;
+    padding: 10px;
+}
+
