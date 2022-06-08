@@ -12,6 +12,7 @@ body {
     padding: 40px;
     font-size: 2em;
     font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     color: blue;
 }
 
@@ -23,12 +24,15 @@ body {
     justify-content: right;
 }
 
-
-
 .navbar-nav {
     text-align: center;
     font-weight: bold;
     font-size: 20px;
+}
+
+.nav-item:hover {
+    filter: brightness(70%);
+    transition: 1s all ease;
 }
 
 .nav-item:nth-child(1) {
@@ -36,17 +40,41 @@ body {
 }
 
 .nav-item:nth-child(2) {
-    background-color: rgb(148, 138, 138);
+    background-color: rgb(139, 128, 128);
 }
 
 .nav-item:nth-child(3) {
-    background-color: white;
+    background-color: rgb(255, 255, 255);
 }
 
+/*--- For Our menu heading ---*/
 #text {
     font-size: 30px;
     font-weight: bold;
-    margin-top: 20px;
+    margin-bottom: 20px;
     padding: 10px;
 }
 
+/*--- As required to heighten the whole section to be longer as possible ---*/
+.row {
+    height: 1000px;
+}
+
+/*--- Additional, for moment of enjoyment ---*/
+img {
+    height: 380px;
+    padding: 0 60px;
+}
+
+p {
+    font-size: 25px;
+    line-height: 60px;
+    margin-bottom: 40px;
+}
+
+/*--- Allow the chicken image to be visible fully and shrink to be properly fit the browser window at 500px ---*/
+@media (min-width: 500px) {
+    img {
+        width: 100%;
+    }
+}
